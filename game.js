@@ -1,6 +1,6 @@
 var SCALE_FACTOR = 5;
 
-var game = new Phaser.Game(200, 150, Phaser.AUTO, 'game', { 
+var game = new Phaser.Game(200, 150, Phaser.CANVAS, 'game', { 
   preload: preload, 
   create: create, 
   update: update 
